@@ -64,7 +64,9 @@ header {
     border: none;
     color: #FFFFFF;
 }
-.section-wrapper {
+
+/* MAIN CONTENT_1 */
+.main-wrapper {
     padding: 0 75px;
 }
 .main-section {
@@ -127,7 +129,6 @@ header {
     font-size: 15px;
     line-height: 25px;
     color: #000000;
-    margin-bottom: 172px;
 }
 .main-img-conteiner {
     width: 759px;
@@ -137,4 +138,35 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+/* BANNER */
+.main-banner {
+    max-width: 1960px;
+    width: 100%;
+    height: 455px;
+    background-color: #FF9C7D;
+}
+.content-banner {
+    display: flex;
+    width: 700px;
+    height: 120px;
+    padding-top: 108px;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px; 
+    text-align: center;
+    color: #000000;
+}
+    
+
+/* }
+.img-banner {
+   padding-bottom: 80px;
+} */
+
+/* MAIN CONTENT_2 */
 
