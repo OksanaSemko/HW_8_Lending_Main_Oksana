@@ -147,12 +147,10 @@ header {
     background-color: #FF9C7D;
 }
 .content-banner {
-    display: flex;
     width: 700px;
     height: 120px;
     padding-top: 108px;
     margin: auto;
-    justify-content: center;
     font-family: 'Graphik LC TT bold';
     font-style: normal;
     font-weight: 600;
@@ -161,12 +159,10 @@ header {
     text-align: center;
     color: #000000;
 }
-    
-
-/* }
 .img-banner {
-   padding-bottom: 80px;
-} */
-
-/* MAIN CONTENT_2 */
+    width: 1290px;
+    height: 53px;
+    padding-top: 180px;
+    margin: auto;
+}
 
