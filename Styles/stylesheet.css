@@ -64,3 +64,77 @@ header {
     border: none;
     color: #FFFFFF;
 }
+.section-wrapper {
+    padding: 0 75px;
+}
+.main-section {
+    padding-top: 130px;
+    padding-bottom: 172px;
+}
+.main-content-container {
+    max-width: 600px;
+}
+.main-content-container h2 {
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 51px;
+    max-width: 600px;
+}
+.main-content-container .discription {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 51px;
+    max-width: 500px;
+}
+.main-links-box {
+   display: flex; 
+   gap: 10px;
+   margin-bottom: 25px;
+}
+.main-links-box a {
+    width: 160px;
+    height: 60px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    text-decoration: none;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #000000;
+}
+.main-links-box a:first-child {
+    background: #FF6336;
+    border: none;
+    color: #FFFFFF;
+}
+.main-content-container .sub-discription {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 172px;
+}
+.main-img-conteiner {
+    width: 759px;
+    height: 529px;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
