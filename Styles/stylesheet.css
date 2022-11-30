@@ -67,7 +67,7 @@ header {
 
                                             /* MAIN CONTENT_1 */
 .main-wrapper {
-    padding: 0 75px;
+    padding: 0 95px;
 }
 .main-section {
     padding-top: 130px;
@@ -168,19 +168,16 @@ header {
 
                                             /* MAIN CONTENT_2 */
 .main-bloks {
-padding-top: 90px;
-padding-bottom: 150px;
-}
-.blok_1 {
+    margin-top: 90px;
     margin-bottom: 250px;
     display: flex;
     justify-content: space-between;
 }
-.blok_1_conteiner {
+.blok_conteiner {
     display: flex;
     align-items: center;
 }
-.main-content-blok_1 h3 {
+.main-content-blok h3 {
     width: 493px;
     height: 120px;
     margin-bottom: 30px;
@@ -191,8 +188,8 @@ padding-bottom: 150px;
     line-height: 60px;
     color: #000000;
 }
-.main-content-blok_1 .discription-blok_1 {
-    width: 491px;
+.main-content-blok .discription-blok {
+    width: 490px;
     height: 120px;
     margin-bottom: 30px;
     font-family: 'Graphik LC TT';
@@ -205,9 +202,10 @@ padding-bottom: 150px;
 span {
     text-decoration: underline;
 }
-.main-content-blok_1 .discription-blok_1_sub {
+.main-content-blok .discription-blok_sub {
     width: 96px;
     height: 30px;
+    margin-top: 30px;
     font-family: 'Graphik LC TT bold';
     font-style: normal;
     font-weight: 600;
@@ -215,5 +213,91 @@ span {
     line-height: 30px;
     color: #000000;
 }
-
-  
+.main-bloks_opposit {
+    margin-bottom: 250px;
+    display: flex; 
+}
+.blok_1_conteiner {
+    margin-left: 140px;
+    margin-top: 151px;
+}
+.main-content-blok_1 {
+    width: 350px;
+    height: 120px;
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+.main-content-blok_1 .discription-blok_1 {
+    width: 450px;
+    height: 150px;
+    margin-top: 30px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.main-content-blok_1 .discription-blok_1_sub {
+    width: 96px;
+    height: 30px;
+    margin-top: 30px;
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.main-content-blok_3 {
+    width: 397px;
+    height: 60px;
+    margin-top: 161px;
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+.main-content-blok_3 .discription-blok_3 {
+    width: 520px;
+    height: 150px;
+    margin-top: 30px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.main-content-blok_3 .discription-blok_3_sub {
+    width: 96px;
+    height: 30px;
+    margin-top: 30px;
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.blok_4_conteiner {
+    margin-left: 140px;
+    margin-top: 123px;
+}
+.discription-blok_4 {
+    width: 520px;
+    height: 120px;
+    margin-top: 30px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
