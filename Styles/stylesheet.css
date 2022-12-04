@@ -65,7 +65,7 @@ header {
     color: #FFFFFF;
 }
 
-                                            /* MAIN CONTENT_1 */
+                                            /* MAIN SECTION_1 */
 .main-wrapper {
     padding: 0 95px;
 }
@@ -166,7 +166,7 @@ header {
     margin: auto;
 }
 
-                                            /* MAIN CONTENT_2 */
+                                            /* MAIN SECTION_2 */
 .main-bloks {
     margin-top: 90px;
     margin-bottom: 250px;
@@ -299,5 +299,57 @@ span {
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    color: #000000;
+}
+
+                                            /* MAIN SECTION_3 */
+.section_3_wrapper {
+    max-width: 1960px;
+    width: 100%;
+    background-color: #FFF8E4;
+    padding-top: 120px;
+    padding-bottom: 147px;
+}
+h3 {
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 58px;
+}
+.section_3_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 110px;
+}
+.card {
+    width: 330px;
+}
+.card-img {
+    text-align: center;
+    margin-top: 21px; 
+   }
+.card-title {
+    text-align: center;
+    margin-top: 26px;
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+}
+.card-discription {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
     color: #000000;
 }
