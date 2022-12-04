@@ -139,7 +139,7 @@ header {
     justify-content: space-between;
 }
 
-                                                /* BANNER */
+                                                /* BANNER_1 */
 .main-banner {
     max-width: 1960px;
     width: 100%;
@@ -353,3 +353,207 @@ h3 {
     line-height: 25px;
     color: #000000;
 }
+                                            /* MAIN SECTION_4 */
+.section_4_title {
+    margin: 154px 0 25px;
+    text-align: left;
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+.section_4_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 31px;
+    padding-bottom: 187px;
+}
+.section_4_card {
+    width: 407px;
+}
+.section_4_card .card-img-1 {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 49px; 
+}
+.section_4_card .card-img-2 {
+    text-align: left;
+    margin-top: 67px;
+    margin-bottom: 67px; 
+}
+.section_4_card .card-img-3 {
+    text-align: left;
+    margin-top: 59px;
+    margin-bottom: 58px;
+}
+.section_4_card .card-title {
+    text-align: left;
+    margin-top: 49px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+.section_4_card .card-discription {
+    text-align: left;
+    margin-top: 34px;
+    margin-bottom: 25px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.section_4_link {
+    text-align: left;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+                                                /* BANNER_2 */
+.main-banner_2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C9E8F2;
+    padding: 0 95px;
+}
+.main_content_banner_2 {
+    width: 895px;
+    margin-top: 63px;
+}
+.banner_2_discription {
+    text-align: left;
+    margin-bottom: 23px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+.sub-discription_banner_2 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+}
+.main-banner_2_img {
+    margin-top: 53px;
+    margin-bottom: 105px;
+    margin-left: 95px;
+}
+                                                /* BANNER_3 */
+.main-banner_3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DABC98;
+}
+.main_content_banner_3 {
+    width: 809px;
+    display: flex;
+}
+.main_content_banner_3 img {
+    margin: 90px 74px 88px 76px;
+}
+.discription_banner_3 {
+    margin-top: 117px;
+    margin-bottom: 115px;
+    text-align: left;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+}
+.content_banner_3 {
+    width: 481px;
+    height: 168px;
+    display: flex;
+    gap: 71px;
+    padding-left: 71px;
+    margin-top: 80px;
+    margin-bottom: 84px;
+    margin-right: 138px;
+    border-left: 1px solid #000000;
+}
+.banner_3_icons {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.banner_3_card-discription {
+    margin-top: 15px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+                                            /* MAIN SECTION_5 */
+.section_5_title {
+    width: 801px;
+    height: 150px;
+    margin-top: 165px;
+    margin-left: 325px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+    }
+.section_5_discription {
+    width: 539px;
+    height: 60px;
+    margin-left: 451px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.section_5_img {
+    margin-top: 25px;
+    margin-left: 208px;
+    margin-bottom: 32px;
+}
+.section_5_btn a {
+    width: 193px;
+    height: 60px;
+    margin-left: 624px;
+    margin-bottom: 162px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border-radius: 0px;
+    text-decoration: none;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF; 
+    background: #FF6336;
+}
+
+   
