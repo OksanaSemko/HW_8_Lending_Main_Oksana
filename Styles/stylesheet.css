@@ -555,5 +555,53 @@ h3 {
     color: #FFFFFF; 
     background: #FF6336;
 }
+                                                /* BANNER_4 */
+.main-banner_4 {
+    background-color: #FF9C7D;
+    padding-top: 119px;
+    padding-bottom: 161px;
+}
+.main-banner_4_title {
+    width: 784px;
+    height: 150px;
+    margin-left: 358px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+}
+.main-banner_4_discription {
+    width: 438px;
+    height: 30px;
+    margin-top: 29px;
+    margin-left: 531px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.main-banner_4_btn a {
+    width: 160px;
+    height: 60px;
+    margin-top: 54px;
+    margin-left: 670px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: #000000;
+}
+
+
 
    
