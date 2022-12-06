@@ -87,6 +87,7 @@ header {
     max-width: 600px;
 }
 .main-content-container .discription {
+    width: 471px;
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 400;
@@ -123,6 +124,7 @@ header {
     color: #FFFFFF;
 }
 .main-content-container .sub-discription {
+    width: 369px;
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 400;
@@ -324,7 +326,7 @@ h3 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 110px;
+    gap: 80px;
 }
 .card {
     width: 330px;
@@ -433,6 +435,7 @@ h3 {
 }
 .banner_2_discription {
     text-align: left;
+    width: 921px;
     margin-bottom: 23px;
     font-family: 'Graphik LC TT';
     font-style: normal;
@@ -470,6 +473,7 @@ h3 {
     margin: 90px 74px 88px 76px;
 }
 .discription_banner_3 {
+    width: 461px;
     margin-top: 117px;
     margin-bottom: 115px;
     text-align: left;
@@ -510,8 +514,8 @@ h3 {
     width: 801px;
     height: 150px;
     margin-top: 165px;
-    margin-left: 325px;
-    font-family: 'Graphik LC TT';
+    margin-left: 355px;
+    font-family: 'Graphik LC TT bold';
     font-style: normal;
     font-weight: 600;
     font-size: 65px;
@@ -522,7 +526,7 @@ h3 {
 .section_5_discription {
     width: 539px;
     height: 60px;
-    margin-left: 451px;
+    margin-left: 481px;
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 400;
@@ -533,13 +537,13 @@ h3 {
 }
 .section_5_img {
     margin-top: 25px;
-    margin-left: 208px;
+    margin-left: 238px;
     margin-bottom: 32px;
 }
 .section_5_btn a {
     width: 193px;
     height: 60px;
-    margin-left: 624px;
+    margin-left: 654px;
     margin-bottom: 162px;
     left: 0%;
     right: 0%;
@@ -565,7 +569,7 @@ h3 {
     width: 784px;
     height: 150px;
     margin-left: 358px;
-    font-family: 'Graphik LC TT';
+    font-family: 'Graphik LC TT bold';
     font-style: normal;
     font-weight: 600;
     font-size: 65px;
@@ -601,7 +605,129 @@ h3 {
     color: rgb(255, 255, 255);
     background: #000000;
 }
-
-
+                                                /* FOOTER */
+.top_footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 95px;
+}
+.left_box {
+    padding-top: 92px;
+    padding-left: 95px;
+}
+.left_box h3 {
+    width: 257px;
+    height: 50px;
+    margin-bottom: 28px;
+    display: flex;
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.footer_left_img {
+    margin-bottom: 31px;
+}
+p {
+    width: 290px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.left_link a {
+    margin-bottom: 95px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+.right_box {
+    display: flex;
+    gap: 90px;
+}
+.footer_links_box h4 {
+    font-family: 'Graphik LC TT bold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 21px;
+    margin-top: 97px;
+}
+.footer_links_box ul li a {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.footer_links_box ul li {
+    margin-bottom: 15px;
+}
+.word_break {
+    width: 138px;
+}
+.divider {
+    width: 1340px;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 95px;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.bottom_footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 95px;
+    margin-right: 95px;
+}
+.bottom_footer_left_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 43px;
+}
+.bottom_footer_left_logo {
+    margin-top: 52px;
+}
+.bottom_footer_left_disc p {
+    margin-top: 52px;
+    margin-left: 10px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.bottom_footer_right_box p {
+    margin-top: 52px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.bottom_footer_right_box .data {
+    margin-bottom: 0px;
+}
+.bottom_footer_right_box .rights {
+    margin-top: 0px;
+}
 
    
