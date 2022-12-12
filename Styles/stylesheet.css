@@ -511,10 +511,9 @@ h3 {
 }
                                             /* MAIN SECTION_5 */
 .section_5_title {
-    width: 801px;
-    height: 150px;
-    margin-top: 165px;
-    margin-left: 355px;
+    max-width: 791px;
+    width: 100%;
+    margin: 165px auto 0px;
     font-family: 'Graphik LC TT bold';
     font-style: normal;
     font-weight: 600;
@@ -524,9 +523,9 @@ h3 {
     color: #000000;
     }
 .section_5_discription {
-    width: 539px;
-    height: 60px;
-    margin-left: 481px;
+    max-width: 539px;
+    width: 100%;
+    margin: 0px auto 25px;
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 400;
@@ -536,9 +535,9 @@ h3 {
     color: #000000;
 }
 .section_5_img {
-    margin-top: 25px;
-    margin-left: 238px;
-    margin-bottom: 32px;
+    max-width: 1023px;
+    width: 100%;
+    margin: 0px auto 32px;
 }
 .section_5_btn a {
     width: 193px;
@@ -631,7 +630,7 @@ h3 {
 .footer_left_img {
     margin-bottom: 31px;
 }
-p {
+.footer_left_text {
     width: 290px;
     margin-top: 11px;
     margin-bottom: 15px;
