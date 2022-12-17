@@ -16,6 +16,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 25px 51px;
     border-bottom: 1px solid #CCCCCC;
 }
@@ -75,6 +76,7 @@ header {
 }
 .main-content-container {
     max-width: 600px;
+    width: 100%;
 }
 .main-content-container h2 {
     font-family: 'Graphik LC TT bold';
@@ -87,7 +89,6 @@ header {
     max-width: 600px;
 }
 .main-content-container .discription {
-    width: 471px;
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 400;
@@ -133,8 +134,9 @@ header {
     color: #000000;
 }
 .main-img-conteiner {
-    width: 759px;
-    height: 529px;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 .main-content {
     display: flex;
@@ -355,8 +357,7 @@ span {
     max-width: 1960px;
     width: 100%;
     background-color: #FFF8E4;
-    padding-top: 120px;
-    padding-bottom: 93px;
+    padding: 120px 95px 150px;
 }
 h3 {
     font-family: 'Graphik LC TT bold';
@@ -372,14 +373,19 @@ h3 {
     max-width: 1290px;
     width: 100%;
     display: flex;
-   margin: 58px auto;
+    justify-content: space-between;
+    margin: 0px auto;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 54px;
 }
 .card {
-    width: 330px;
+    max-width: 330px;
+    width: 100%;
+    max-height: 294px;
+    height: 100%;
 }
 .card-img {
+    width: 100%;
     text-align: center;
     margin-top: 21px; 
    }
@@ -477,22 +483,24 @@ h3 {
     display: flex;
     justify-content: space-between;
     background-color: #C9E8F2;
-    padding: 0 95px;
+    padding: 0 95px 105px;
 }
 .main_content_banner_2 {
-    width: 895px;
-    margin-top: 63px;
+    margin-top: 43px;
+    padding: 20px 0 15px;
+    max-width: 895px;
+    width: 100%;
 }
 .banner_2_discription {
-    text-align: left;
-    width: 921px;
-    margin-bottom: 23px;
     font-family: 'Graphik LC TT';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 40px;
     color: #000000;
+    text-align: left;
+    margin-bottom: 23px;
+
 }
 .sub-discription_banner_2 {
     text-align: left;
@@ -506,8 +514,8 @@ h3 {
 }
 .main-banner_2_img {
     margin-top: 53px;
-    margin-bottom: 105px;
-    margin-left: 95px;
+    max-width: 310px;
+    width: 100%;
 }
                                                 /* BANNER_3 */
 .main-banner_3 {
@@ -751,7 +759,6 @@ h3 {
 .bottom_footer_left_logo {
     margin-top: 52px;
 }
-
 .bottom_footer_left_disc p {
     max-width: 301px;
     margin: 52px 14px 0;
@@ -777,5 +784,200 @@ h3 {
 .bottom_footer_right_box .rights {
     margin-top: 0px;
 }
+                                                /* ADAPTIVE PC */
+@media (max-width: 1024px) {
+    .main-wrapper {
+        padding: 0 65px;
+    }
+    .main-section {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    .main-content-container h2 {
+        font-size: 52px;
+        line-height: 58px;
+        margin-bottom: 40px;
+    }
+    .main-content-container .discription {
+        font-size: 18px;
+        line-height: 35px;
+        margin-bottom: 40px;
+    }
+    .main-links-box a {
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .main-content-container .sub-discription {
+        font-size: 12px;
+    }
+    .main-img-conteiner img {
+        width: 100%;
+    }
+/* ================================================== */
+    .section_3_wrapper {
+        padding: 80px 75px 100px;
+    }
+    h3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .section_3_container {
+        gap: 18px 0px;
+    }
+    .card {
+        max-width: 250px;
+        width: 100%;
+    }
+    .card-img {
+        width: 100%;
+        margin-top: 8px;
+    }
+    .card-img img {
+        margin-top: 14px;
+        width: 100%;
+        padding: 5px 55px 5px;
+    }
+    .card-title {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .card-discription {
+        margin-top: 15px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+/* ================================================== */
+    .main-banner_2 {
+        padding: 0 75px 75px;
+    }
+    .main_content_banner_2 {
+        margin-top: 33px;
+        padding: 15px 0 10px;
+    }
+    .banner_2_discription {
+        font-size: 19px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .sub-discription_banner_2 {
+        margin-bottom: 6px;
+        font-size: 12px;
+    }
+    .logo_revolute img {
+        width: 17%;
+    }
+    .main-banner_2_img {
+        display: flex;
+        justify-content: end;
+        margin-top: 43px;
+    }
+    .main-banner_2_img img {
+        width: 75%;
+    }
+}
+                                                /* ADAPTIVE TABLET */
+@media (max-width: 768px) {
+    .main-section {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .main-content-container {
+        max-width: 300px;
+        width: 100%;
+    }
+    .main-content-container h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .main-content-container .discription {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 30px;
+        margin-right: 8px;
+    }
+    .main-links-box {
+        display: flex; 
+        gap: 5px;
+        margin-bottom: 12px; 
+    }
+    .main-links-box a {
+        width: 95px;
+        height: 35px;
+        font-size: 9px;
+    }
+    .main-content-container .sub-discription {
+        font-size: 9px;
+    }
+    .main-img-conteiner img {
+        width: 100%;
+    }
+/* ================================================== */
+    .section_3_wrapper {
+        padding: 50px 55px 60px;
+    }
+    h3 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .section_3_container {
+        gap: 0px 15px;
+    }
+    .card {
+        max-width: 180px;
+        width: 100%;
+        max-height: 240px;
+        height: 100%;
+    }
+    .card-img {
+        width: 100%;
+        margin-top: 8px;
+    }
+    .card-img img {
+        margin-top: 14px;
+        width: 100%;
+        padding: 5px 40px 5px;
+    }
+    .card-title {
+        margin-top: 8px;
+        font-size: 16px;
+    }
+    .card-discription {
+        margin-top: 8px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+/* ================================================== */
+    .main-banner_2 {
+        padding: 0 55px 55px;
+    }
+    .main_content_banner_2 {
+        margin-top: 28px;
+        padding: 13px 0 7px;
+        width: 210%;
+    }
+    .banner_2_discription {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .sub-discription_banner_2 {
+        margin-bottom: 2px;
+        font-size: 9px;
+    }
+    .logo_revolute img {
+        width: 15%;
+    }
+    .main-banner_2_img {
+        margin-top: 38px;
+    }
+    .main-banner_2_img img {
+        width: 80%;
+    }
+}
 
-   
+
+                                                /* ADAPTIVE MOBILE */
+@media (max-width: 375px) {
+}
